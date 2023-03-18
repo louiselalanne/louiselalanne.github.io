@@ -13,20 +13,20 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: America/Sao_Paulo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Lois Lane's Notes # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Security Researcher | CTF Player # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A small colection of write ups and hacker stuff.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://louiselalanne.github.io"
 
 github:
   username: github_username # change to your github username
@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://www.linkpicture.com/q/LL-12-01_1.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
