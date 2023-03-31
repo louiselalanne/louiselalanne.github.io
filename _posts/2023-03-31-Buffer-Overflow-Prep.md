@@ -1,5 +1,5 @@
 ---
-title: Buffer-Overflow-Prep
+title: Buffer Overflow Prep
 date: 2023-03-31
 categories: [hack, bof]
 tags: [bof,ctf,tryhackme,hack,exploit,oscp]
