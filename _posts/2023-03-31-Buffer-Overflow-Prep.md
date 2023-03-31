@@ -21,7 +21,7 @@ The binary will open in a "paused" state, so click the red play icon or choose D
 
 On your Kali box, connect to port 1337 on 10.10.120.48 using netcat:
 
-`nc -nv 10.10.120.48 1337`
+`nc -nv <IP> 1337`
 
 Type "HELP" and press Enter. Note that there are 10 different OVERFLOW commands numbered 1 - 10. Type "OVERFLOW1 test" and press enter. The response should be "OVERFLOW1 COMPLETE". Terminate the connection.
 
@@ -43,7 +43,7 @@ Create a file on your Kali box called fuzzer.py with the following contents:
 
 import socket, time, sys
 
-ip = "10.10.120.48"
+ip = ""
 
 port = 1337
 timeout = 5
@@ -82,7 +82,7 @@ Create another file on your Kali box called exploit.py with the following conten
 ```
 import socket
 
-ip = "10.10.120.48"
+ip = ""
 port = 1337
 
 prefix = "OVERFLOW1 "
