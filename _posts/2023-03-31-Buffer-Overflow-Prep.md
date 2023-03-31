@@ -21,7 +21,7 @@ The binary will open in a "paused" state, so click the red play icon or choose D
 
 On your Kali box, connect to port 1337 on 10.10.120.48 using netcat:
 
-` nc -nv 10.10.120.48 1337 `
+`nc -nv 10.10.120.48 1337`
 
 Type "HELP" and press Enter. Note that there are 10 different OVERFLOW commands numbered 1 - 10. Type "OVERFLOW1 test" and press enter. The response should be "OVERFLOW1 COMPLETE". Terminate the connection.
 
@@ -31,7 +31,7 @@ Type "HELP" and press Enter. Note that there are 10 different OVERFLOW commands 
 
 The mona script has been preinstalled, however to make it easier to work with, you should configure a working folder using the following command, which you can run in the command input box at the bottom of the Immunity Debugger window:
 
-` !mona config -set workingfolder c:\mona\%p `
+`!mona config -set workingfolder c:\mona\%p`
 
 ![mona-config](/assets/Bof1/mona-config.png)
 
@@ -108,7 +108,7 @@ except:
 
 Run the following command to generate a cyclic pattern of a length 400 bytes longer that the string that crashed the server (change the -l value to this):
 
-` /usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000 `
+`/usr/share/metasploit-framework/tools/exploit/pattern_create.rb -l 2000`
 
 ![pattern](/assets/Bof1/pattern-create.png)
 
